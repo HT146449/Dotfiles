@@ -1,0 +1,48 @@
+# ===========================
+# Kitty Terminal Configuration
+# ===========================
+
+# Font
+# font_family FiraMonoNerdFont
+font_size 12
+
+# Window size
+initial_window_width 140
+initial_window_height 35
+
+# Brutalist Monochrome Colors
+# foreground #D3D3D3
+# background #000000
+# selection_background #555555
+# selection_foreground #000000
+# cursor #D3D3D3
+
+# Transparency
+background_opacity 0.85
+
+# Scrollbar
+scrollbar_position none
+
+# Window decorations
+decorations none
+
+# Padding (outer padding around window)
+padding 5 5 5 5
+
+# Enable true color
+enable_true_color yes
+
+# Extra inner padding inside splits
+window_padding_width 3
+
+
+include colors.conf
+allow_remote_control yes
+
+
+# BEGIN_KITTY_FONTS
+font_family      family='FiraMono Nerd Font' postscript_name=FiraMonoNF-Regular
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+# END_KITTY_FONTS
